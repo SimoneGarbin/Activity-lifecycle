@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/albaadmin/AndroidExamples/Laboratories/Lab-1/Activity-lifecycle/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="69adcec73a37c38e5b429cf35f9776e78ec9e785">
+        <dex dex="/home/albaadmin/AndroidExamples/Laboratories/Lab-1/Activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0c00457473667e05cb51c6e6c35fd8ab5031657e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/albaadmin/AndroidExamples/Laboratories/Lab-1/Activity-lifecycle/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="890486bc158ddf8790a6b42f1fa51df94d34d58c">
+        <dex dex="/home/albaadmin/AndroidExamples/Laboratories/Lab-1/Activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c5ac0853ea93d3200b67c124c96c14b85f89f5ab/classes.dex" />
+    </item>
+
+</items>

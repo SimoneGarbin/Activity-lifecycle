@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    android:padding="8dip"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="44dp"
+        android:text="ActivityD"
+        android:textColor="@color/light_green"
+        android:paddingBottom="16dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startActivityA"
+            android:text="Start A" />
+
+        <Button
+            android:id="@+id/btn_start_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_start_a"
+            android:onClick="startActivityB"
+            android:text="Start B" />
+
+        <Button
+            android:id="@+id/btn_start_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_start_b"
+            android:onClick="startActivityC"
+            android:text="Start C" />
+
+        <Button
+            android:id="@+id/btn_finish_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_start_c"
+            android:onClick="finishActivityD"
+            android:text="Finish D" />
+
+        <Button
+            android:id="@+id/btn_start_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startDialog"
+            android:text="Dialog"
+            android:layout_below="@+id/btn_start_a"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_medium"
+        android:text="@string/lifecycle_method_list"
+        android:textColor="@color/light_red"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <TextView
+            android:id="@+id/status_view_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:padding="4dip"
+            android:typeface="monospace"
+            />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_medium"
+        android:text="@string/activity_status"
+        android:textColor="@color/light_red"
+        />
+
+    <TextView
+        android:id="@+id/status_view_all_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="4dip"
+        android:typeface="monospace"
+        />
+
+</LinearLayout>
