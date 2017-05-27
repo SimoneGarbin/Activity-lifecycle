@@ -104,7 +104,7 @@ limitations under the License.
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/activity_status"
+        android:text="Activity Status Merge con Master"
         android:textColor="@color/light_blue"
         android:textSize="@dimen/font_medium" />
 
